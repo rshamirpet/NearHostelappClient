@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*background-image: url(../images/maroonshade.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+.container {
+  position: absolute;
+  top: 0;
+}
+input[type="number"] {
+  background: black;
+}
+.signupbox {
+  width: 320px;
+  /* height: 550px; */
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+/*.signupbox:hover{
+	box-shadow: 3px 3px 5px yellow, inset 2px 2px 5px white;
+}*/
+h3 {
+  /*color: #7da7f5;*/
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.signupbox p {
+  letter-spacing: 0.5px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.signupbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.signupbox input[type="text"],
+input[type="password"],
+input[type="email"] {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+  height: 40px;
+}
+.signupbox button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.signupbox p#footer {
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.signupbox a {
+  color: white;
+}
+.signupbox a:hover {
+  color: yellow;
+}

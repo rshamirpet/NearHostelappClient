@@ -1,0 +1,73 @@
+header {
+  position: fixed-top;
+  background-color: yellow;
+  padding: 1rem 0 1rem 0;
+  background-color: black;
+  color: white;
+
+  font-family: "Lato", sans-serif;
+}
+header a,
+header a:hover {
+  text-decoration: none;
+  color: white;
+}
+h5 span {
+  color: yellow;
+  font-weight: bold;
+}
+
+.hostelimage img {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+
+.hosteldetails {
+  padding: 1rem;
+}
+
+/*contact form*/
+.contact {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-color: black;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+h4 {
+  text-align: center;
+  font-weight: bold;
+  color: yellow;
+}
+.contact p {
+  letter-spacing: 0.5px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.contact input {
+  color: white;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contact input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="telephone"] {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+  height: 40px;
+}
+.contact button {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

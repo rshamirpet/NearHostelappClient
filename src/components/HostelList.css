@@ -1,0 +1,18 @@
+header {
+  position: fixed-top;
+  background-color: yellow;
+  padding: 1rem 0 1rem 0;
+  background-color: black;
+  color: white;
+
+  font-family: "Lato", sans-serif;
+}
+header a,
+header a:hover {
+  text-decoration: none;
+  color: white;
+}
+h5 span {
+  color: yellow;
+  font-weight: bold;
+}

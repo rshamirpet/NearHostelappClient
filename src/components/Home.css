@@ -1,0 +1,286 @@
+#color {
+  font-weight: bold;
+  color: yellow;
+}
+.navbar-brand,
+.navbar-brand:hover {
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+.navbar-nav li a {
+  padding-left: 20px;
+}
+nav ul {
+  padding: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 3px 5px;
+  color: white;
+}
+nav ul li a:hover,
+nav ul li a:active {
+  color: white;
+  border-bottom: 1px solid yellow;
+}
+button.navbar-toggler.collapsed {
+  color: white;
+  padding: 4px 4px;
+  border: 1px solid white;
+}
+.navbar-toggle-icon {
+  color: white;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#home {
+  padding: 7% 0%;
+  background-color: black;
+}
+.heading {
+  padding-top: 1rem;
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+#font {
+  font-size: 2rem;
+  font-family: "Lilita One", cursive;
+}
+.image img {
+  width: 100%;
+  height: auto;
+}
+.heading a button:hover {
+  border: 1px solid white;
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    background-color: black;
+  }
+  .collapse {
+    padding-left: 40%;
+  }
+  #home {
+    height: 600px;
+    background-image: url(../images/travel.jpg);
+  }
+  .heading {
+    padding-top: 9%;
+    color: black;
+  }
+  #font {
+    font-size: 2rem;
+    font-family: "Lilita One", cursive;
+  }
+  .heading a button:hover {
+    background-color: black;
+    color: yellow;
+    transform: scale(1.03);
+  }
+  .image img {
+    display: none;
+  }
+}
+/*home end*/
+
+/*FEATURES start*/
+#features {
+  padding: 5% 5%;
+  background-color: ;
+  /*font-family: 'Acme', sans-serif;*/
+}
+.featurebox {
+  text-align: center;
+  padding: 5%;
+}
+.featurebox h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+.featurebox p {
+  color: #6e5946;
+}
+.icony {
+  margin-bottom: 1rem;
+  color: /*#ef8172,*/ #ff4c68;
+}
+.icony:hover {
+  color: /*#ff4c68,*/ black;
+}
+
+/* features end*/
+
+/*SignIn start*/
+#signin {
+  background-color: /*#ff4c68*/ black;
+  padding: 5% 0%;
+}
+.image-signin img {
+  border: 2px solid white;
+  width: 100%;
+  margin-bottom: 5px;
+  /*transform: scale(0.8) rotate(-10deg);*/
+}
+.content-signin {
+  padding: ;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+.content-signin span {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: yellow;
+}
+.content-signin p#tag {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+.content-signin a button {
+  width: 30%;
+}
+.content-signin a .btn:hover {
+  transform: scale(1.05);
+}
+/*SignIn end*/
+
+/*gallery start*/
+#gallery {
+  padding: 5% 5%;
+}
+.image {
+  padding: 1rem;
+}
+.imagebox h3 {
+  color: black;
+  text-align: center;
+}
+.imagebox img:hover {
+  transform: scale(1.07);
+  transition-duration: 0.2s;
+  box-sizing: border-box;
+}
+/*gallery end*/
+
+/*CONTACT US Start*/
+/*----#ContactUs{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.contact{
+	background-image: url(../images/skyshade.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#contact{
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+.details h5, .form h4{
+	color: blue;
+	font-weight: bold;
+}
+.details{
+	color: black;
+	font-weight: bold;
+}
+input,textarea{
+	color: white;
+	width: 100%;
+}
+input[type="text"],input[type="email"],textarea{
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	background: transparent;
+	height: 40px;
+}
+/*input:focus,textarea:focus{
+	box-shadow: 0px 2px 4px white;
+}
+
+}
+/*input:focus,textarea:focus{
+	box-shadow: 0px 2px 4px white;
+}
+
+.row .form{
+	width: 50%;
+	border-radius: 10px;
+	border: 1px solid black;
+	padding: 20px 30px;
+	background-color: black;
+	
+}----*/
+#contact h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#contact {
+  padding: 3% 10%;
+  background-color: black;
+  color: white;
+}
+.form {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 2% 0%;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.form button {
+  width: 20%;
+}
+input,
+textarea {
+  width: 100%;
+  color: white;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+  height: 40px;
+}
+input:focus,
+textarea:focus {
+  box-shadow: 0px 2px 4px white;
+}
+/*Contact us end*/
+
+/*float clear*/
+group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}

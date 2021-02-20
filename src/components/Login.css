@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.containerLogin {
+}
+.logo {
+  color: #7997d1;
+}
+.loginbox {
+  /* width: 320px;
+  height: 420px; */
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: black;
+
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+h3 {
+  /*color: #7da7f5;*/
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.loginbox p {
+  letter-spacing: 0.5px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginbox input[type="text"],
+input[type="password"],
+input[type="email"] {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+  height: 40px;
+}
+.loginbox button {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.loginbox a {
+  text-decoration: none;
+  color: grey;
+}

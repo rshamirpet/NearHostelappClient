@@ -1,0 +1,93 @@
+header {
+  position: fixed-top;
+  background-color: yellow;
+  padding: 1rem 0 1rem 0;
+  background-color: black;
+  color: white;
+
+  font-family: "Lato", sans-serif;
+}
+header a,
+header a:hover {
+  text-decoration: none;
+  color: white;
+}
+h5 span {
+  color: yellow;
+  font-weight: bold;
+}
+header input {
+  float: left;
+  width: 50%;
+  height: auto;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  list-style: none;
+  float: left;
+
+  margin: 0 auto;
+  padding: 0 0 0px 15px;
+}
+@media screen and (max-width: 992px) {
+  nav li {
+    padding-bottom: 0.5rem;
+  }
+  header {
+    padding-bottom: 0.5rem;
+  }
+}
+
+.hostels {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hostel {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.hostel-image img {
+  width: 300px;
+  height: 220px;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+  font-size: 30px;
+}
+
+.description {
+  padding: 0px 0px 0px 20px;
+  position: relative;
+}
+.s {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 929px) {
+  .text span#text {
+    display: none;
+  }
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
